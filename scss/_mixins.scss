@@ -1,0 +1,32 @@
+/*MIXIN*/
+
+@mixin texto-tamanio-color-tipo($alineacion,$pleft,$pRight,$pTop,$pBottom,$colorL,$fFamily){
+    text-align: $alineacion;
+    padding-left: $pleft;
+    padding-right: $pRight;
+    padding-top:$pTop ;
+    padding-bottom: $pBottom;
+    color: $colorL;
+    font-family: $fFamily;
+}
+
+@mixin texto-fondo-fuente($bColor,$tamTex,$grosorTex){
+    background-color:$bColor;
+    font-size: $tamTex;
+    font-weight: $grosorTex;
+}
+@mixin logo-tama($tamanio--logo){
+        width: $tamanio--logo;
+        cursor: pointer;
+}
+@mixin boton($border,$borderR,$textDec,$bColor,$margLeft,$pAlto,$pAncho,$fontWeight,$color,$fontSize){
+    border: $border;
+    border-radius: $borderR;
+    text-decoration: $textDec;
+    background-color:$bColor;
+    margin-left: $margLeft;
+    padding: $pAlto $pAncho;
+    font-weight:$fontWeight;
+    color: $color;
+    font-size: $fontSize;
+}

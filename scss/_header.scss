@@ -1,0 +1,15 @@
+/* En esta seccion se encuntra el estilo de HEADER*/
+
+.encabezado{
+    border-top: 15px solid gray;
+    .fuentesNav{
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 40px;
+        .aNav:hover{
+           background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+           border-radius: 5%;
+           color:white;
+        }
+    }
+}
