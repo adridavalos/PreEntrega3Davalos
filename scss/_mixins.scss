@@ -15,8 +15,8 @@
     font-size: $tamTex;
     font-weight: $grosorTex;
 }
-@mixin logo-tama($tamanio--logo){
-        width: $tamanio--logo;
+@mixin logo-tama($tamanioLogo){
+        width: $tamanioLogo;
         cursor: pointer;
 }
 @mixin boton($border,$borderR,$textDec,$bColor,$margLeft,$pAlto,$pAncho,$fontWeight,$color,$fontSize){

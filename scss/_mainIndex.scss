@@ -3,7 +3,7 @@
 .card{
     .textoIndex{
 
-        @include texto-tamanio-color-tipo(left,3%,50%,5%,0%,white,$estilo--texto--letra);
+        @include texto-tamanio-color-tipo(left,3%,50%,5%,0%,white,$fontParrafo);
         @include texto-fondo-fuente(none,1.3rem,bold);
     }
 }

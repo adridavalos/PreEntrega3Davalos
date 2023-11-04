@@ -18,12 +18,12 @@
 
     }
     .textoIndexXS{
-        @include texto-tamanio-color-tipo(left,3%,10%,0%,0%,rgb(255, 255, 255),$estilo--texto--letra);
+        @include texto-tamanio-color-tipo(left,3%,10%,0%,0%,rgb(255, 255, 255),$fontParrafo);
         @include texto-fondo-fuente(none,1.1rem,bold);
     }
     .tituloIndex{
         
-        @include texto-tamanio-color-tipo(left,6%,0%,0%,0%,#ed6d49,$titulo--estilo--letra);
+        @include texto-tamanio-color-tipo(left,6%,0%,0%,0%,#ffffff,$fontTitulo);
         @include texto-fondo-fuente(none,1.5rem,none);
     }
     
@@ -33,17 +33,17 @@
         display: none;
     }
     .tituloIndex{
-        @include texto-tamanio-color-tipo(left,15%,0%,2%,1%,#ed6d49,$titulo--estilo--letra);
+        @include texto-tamanio-color-tipo(left,15%,0%,2%,1%,#ffffff,$fontTitulo);
         @include texto-fondo-fuente(none,1.5rem,none);
     }
     .textoIndexXS{
-        @include texto-tamanio-color-tipo(left,3%,30%,2%,0%,rgb(251, 249, 248),$estilo--texto--letra);
+        @include texto-tamanio-color-tipo(left,3%,30%,2%,0%,rgb(251, 249, 248),$fontParrafo);
         @include texto-fondo-fuente(none,1.2rem,bold);
     }
 }
 @media(min-width:700px){
     .tituloIndex{
-        @include texto-tamanio-color-tipo(left,30%,0%,3%,1%,#ed6d49,$titulo--estilo--letra);
+        @include texto-tamanio-color-tipo(left,30%,0%,3%,1%,#ffffff,$fontTitulo);
 
     }
     .hidden-large{
@@ -57,7 +57,7 @@
 /*Modificacion de texto en Colabora*/
 @media(min-width:700px){
     .textoAyuda{
-        @include texto-tamanio-color-tipo(center,5%,5%,1%,0%,black,$estilo--texto--letra);
+        @include texto-tamanio-color-tipo(center,5%,5%,1%,0%,black,$fontParrafo);
         @include texto-fondo-fuente(none,1.3rem,bold);
     }
     
@@ -65,7 +65,7 @@
 @media(max-width:700px){
    
     .textoAyuda{
-        @include texto-tamanio-color-tipo(center,5%,5%,1%,0%,black,$estilo--texto--letra);
+        @include texto-tamanio-color-tipo(center,5%,5%,1%,0%,black,$fontParrafo);
         @include texto-fondo-fuente(none,0.9rem,bold);
     }
 }

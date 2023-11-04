@@ -1,7 +1,7 @@
-
+/*Contenido principal Adoptame*/
 .tituloAdoptame{
 
-    @include texto-tamanio-color-tipo(center,0%,0%,2%,1%,aliceblue,$titulo--estilo--letra);
+    @include texto-tamanio-color-tipo(center,0%,0%,2%,1%,aliceblue,$fontTitulo);
     @include texto-fondo-fuente(#00cdac,none,none);
     
 }

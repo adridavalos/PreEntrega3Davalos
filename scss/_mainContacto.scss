@@ -1,0 +1,14 @@
+/*Contenido principal Contacto*/
+
+.tamMapa{
+    width : 80%;
+    height: 300px;
+}
+
+.botonFormContacto {
+    @include boton(none, 5px, none, rgb(150, 147, 147), 0%, 0.5%, 3%, bold, white, 1.3rem);
+
+    &:hover {
+        background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+    }
+}
